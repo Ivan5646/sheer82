@@ -5,6 +5,16 @@
     src: url(../fonts/exo/Exo2.0-Regular.otf);
 }
 
+@font-face {
+    font-family: "Exo-Bold";
+    src: url(../fonts/exo/Exo2.0-Bold.otf);
+}
+
+@font-face {
+    font-family: "Exo-SemiBold";
+    src: url(../fonts/exo/Exo2.0-SemiBold.otf);
+}
+
 textarea, input, button { outline: none; }
 
 .container {
@@ -20,7 +30,7 @@ body {
     height: 100vh;
     font-family: Exo, serif;    //Georgia_Regular;
     background-image: url("../img/bg.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
