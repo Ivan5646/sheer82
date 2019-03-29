@@ -1,4 +1,4 @@
-@import 'blocks/_header';
+@import 'blocks/blocks';
 
 @font-face {
     font-family: "Exo";
@@ -26,8 +26,8 @@ textarea, input, button { outline: none; }
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    //width: 100vw;
+    //height: 100vh;
     font-family: Exo, serif;    //Georgia_Regular;
     background-image: url("../img/bg.png");
     background-size: 100% 100%;
@@ -35,7 +35,7 @@ body {
 }
 
 .btn {
-    background-color: #752a49;
+    background-color: #dd2c14;
     display: inline-block;
     padding: 0 56px;
     font-size: 16px;
@@ -48,9 +48,11 @@ body {
     cursor: pointer;
     user-select: none;
     background-image: none;
-    color: #fcf9f9;
+    color: #fff;
     border: 0; //1px solid transparent;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
 
     &:hover {
         background-color:  #96365e;

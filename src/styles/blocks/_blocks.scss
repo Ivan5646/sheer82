@@ -1,0 +1,166 @@
+.header {
+	min-height: 54px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 22px;
+	font-family: Exo-SemiBold, serif;
+	background-color: rgba(0, 23, 38, 0.2);
+
+	a {
+		margin-right: 80px;
+		font-size: 16px;
+		color: #000;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}
+
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 60px;
+
+	&__logo-block {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		color: #000;
+		font-size: 17px;
+		font-family: Exo-Bold, serif;
+	}
+
+	&__logo {
+		width: 68px;
+		height: 68px;
+		margin-right: 15px;
+	}
+	
+	&__phone {
+		font-size: 20px;
+		color: #000;
+		font-family: Exo-Bold, serif;
+	}
+
+	&__order {
+		font-size: 14px;
+		color: #dd2c14;
+	}
+}
+
+.main {
+
+	&__description {
+		position: relative;
+		background-color: #dd2c14;
+		color: #ffffff;
+		max-width: 620px;
+		text-transform: uppercase;
+		font-size: 36px;
+        margin-bottom: 55px;
+
+		&::after {
+			content: '';
+			display: block;
+			position: absolute;
+			right: 16%;
+			top: 100%;
+			//margin-top: -30px;
+			width: 0;
+			height: 0;
+			border-top: 30px solid #dd2c14;
+			border-right: 30px solid #dd2c14;
+			border-bottom: 30px solid transparent;
+			border-left: 30px solid transparent;
+		}
+	}
+
+	&__advantages {
+		color: #fefefe;
+        margin-top: 72px;
+	}
+
+	&__advantages-tile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+		background-color: rgba(0, 23, 38, 0.902);
+		margin-bottom: 24px;
+		max-width: 696px;
+		height: 72px;
+        padding-left: 68px;
+        background-image: url("../../img/calendar.svg");
+        background-repeat: no-repeat;
+        background-position: 18px 50%;
+
+        &--profit {
+            background-image: url("../../img/handshake.svg");
+        }
+
+        &--reliable {
+            background-image: url("../../img/ribbon.svg");
+        }
+	}
+
+    &__advantages-top {
+        font-size: 24px;
+        font-family: Exo-Bold, serif;
+    }
+
+    &__advantages-bottom {
+        font-size: 14px;
+
+    }
+
+    &__form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		background-color: rgba(238, 242, 245, 0.902);
+		padding: 0 20px;
+		width: 343px;  //363px;
+		height: 390px;
+		text-align: center;
+
+		input:not([type="checkbox"]) {
+			height: 44px;
+			background-position: 95% 0;
+			background-repeat: no-repeat;
+			padding-right: 45px;
+			padding-left: 6px;
+			border: 0;
+		}
+
+		input[type="text"] {
+			background-image: url("../../img/person.svg");
+		}
+
+		input[type="phone"] {
+			background-image: url("../../img/phone.svg");
+		}
+    }
+
+	&__form-header {
+		font-size: 24px;
+		font-family: Exo-Bold, serif;
+		text-transform: uppercase;
+	}
+
+	&__form-info {
+		font-size: 14px;
+	}
+
+	&__form-terms {
+		//font-family: ProximaNova;
+		font-size: 13px;
+		color: #999999;
+	}
+
+	&__form-btn {
+
+	}
+}
+
+
