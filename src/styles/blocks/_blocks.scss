@@ -77,7 +77,28 @@
 		}
 	}
 
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	&__img {
+		width: 690px;
+		height: 595px;
+		background-image: url("../../img/man.svg");
+		background-size: 70%;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0;
+		left: 18%;
+		z-index: 2;
+	}
+
 	&__advantages {
+		position: relative;
+		z-index: 1;
+		width: 60%;
 		color: #fefefe;
         margin-top: 72px;
 	}
@@ -115,13 +136,15 @@
     }
 
     &__form {
+		position: relative;
+		z-index: 3;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: center;
 		background-color: rgba(238, 242, 245, 0.902);
-		padding: 0 20px;
+		padding: 28px 20px;
 		width: 343px;  //363px;
-		height: 390px;
+		//height: 390px;
 		text-align: center;
 
 		input:not([type="checkbox"]) {
@@ -135,21 +158,62 @@
 
 		input[type="text"] {
 			background-image: url("../../img/person.svg");
+			margin-bottom: 17px;
 		}
 
 		input[type="phone"] {
 			background-image: url("../../img/phone.svg");
+			margin-bottom: 23px;
 		}
     }
 
-	&__form-header {
-		font-size: 24px;
-		font-family: Exo-Bold, serif;
-		text-transform: uppercase;
+	&__form-checkbox-container {
+		//position: relative;
+		display: flex;
+		align-items: center;
+
+		input[type="checkbox"] {
+			position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+		}
+
+		input[type=checkbox] + label {
+			margin-top: 7px;
+			padding-left:20px;
+			height:15px;
+			display:inline-block;
+			line-height:15px;
+			background-repeat:no-repeat;
+			background-position: 0 0;
+			font-size:15px;
+			vertical-align:middle;
+			cursor:pointer;
+		}
+
+		input[type=checkbox]:checked + label {
+			background-position: 0 -15px;
+		}
+
+		label {
+			background-image:url(../../img/checkmark.png);
+			user-select: none;
+		}
+	}
+
+	&__form-header  {
+		margin: 0 0 28px 0;
+
+		div {
+			line-height: 27px; // 12px between divs
+			font-size: 24px;
+			font-family: Exo-Bold, serif;
+			text-transform: uppercase;
+		}
 	}
 
 	&__form-info {
 		font-size: 14px;
+		line-height: 18px; // 8px between
+		margin-bottom: 20px;
 	}
 
 	&__form-terms {
@@ -159,7 +223,7 @@
 	}
 
 	&__form-btn {
-
+		margin-bottom: 24px;
 	}
 }
 

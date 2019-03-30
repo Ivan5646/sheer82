@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea871e0e-6724-478b-ab6b-7535ffb1a2de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/man.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/person.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" afterDir="false" />
+    <list default="true" id="ea871e0e-6724-478b-ab6b-7535ffb1a2de" name="Default" comment="form started">
+      <change afterPath="$PROJECT_DIR$/src/img/checkmark.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blocks/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="66" column="88" lean-forward="true" selection-start-line="66" selection-start-column="88" selection-end-line="66" selection-end-column="91" />
+            <state relative-caret-position="358">
+              <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_blocks.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/blocks/_blocks.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -35,7 +40,7 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="960">
               <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
             </state>
           </provider>
@@ -49,6 +54,11 @@
       <find>build-fon</find>
       <find>img</find>
       <find>btn</find>
+      <find>.header{min-height:54px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:22px;font-family:Exo-SemiBold,serif;background-color:rgba(0,23,38,0.2)}.header a{margin-right:80px;font-size:16px;color:#000}.header a:last-of-type{margin-right:0}.contacts{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:60px}.contacts__logo-block{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#000;font-size:17px;font-family:Exo-Bold,serif}.contacts__logo{width:68px;height:68px;margin-right:15px}.contacts__phone{font-size:20px;color:#000;font-family:Exo-Bold,serif}.contacts__order{font-size:14px;color:#dd2c14}.main__description{position:relative;background-color:#dd2c14;color:#fff;max-width:620px;text-transform:uppercase;font-size:36px;margin-bottom:55px}.main__description::after{content:'';display:block;position:absolute;right:16%;top:100%;width:0;height:0;border-top:30px solid #dd2c14;border-right:30px solid #dd2c14;border-bottom:30px solid transparent;border-left:30px solid transparent}.main__advantages{color:#fefefe;margin-top:72px}.main__advantages-tile{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:rgba(0,23,38,0.902);margin-bottom:24px;max-width:696px;height:72px;padding-left:68px;background-image:url(&quot;../../img/calendar.svg&quot;);background-repeat:no-repeat;background-position:18px 50%}.main__advantages-tile--profit{background-image:url(&quot;../../img/handshake.svg&quot;)}.main__advantages-tile--reliable{background-image:url(&quot;../../img/ribbon.svg&quot;)}.main__advantages-top{font-size:24px;font-family:Exo-Bold,serif}.main__advantages-bottom{font-size:14px}.main__form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around;background-color:rgba(238,242,245,0.902);padding:0 20px;width:343px;height:390px;text-align:center}.main__form input:not([type=&quot;checkbox&quot;]){height:44px;background-position:95% 0;background-repeat:no-repeat;padding-right:45px;padding-left:6px;border:0}.main__form input[type=&quot;text&quot;]{background-image:url(&quot;../../img/person.svg&quot;)}.main__form input[type=&quot;phone&quot;]{background-image:url(&quot;../../img/phone.svg&quot;)}.main__form-checkbox-container{position:relative}.main__form-checkbox-container input[type=&quot;checkbox&quot;]{position:absolute;opacity:0;cursor:pointer;height:0;width:0}.main__form-checkbox-container label{position:absolute;top:0;left:0;height:25px;width:25px;background-color:mediumpurple}input[type=&quot;checkbox&quot;]:checked .main__form-checkbox-container{color:red}input[type=&quot;checkbox&quot;]:checked .main__form-checkbox-container label::after{content:&quot;&quot;;position:absolute;display:block;left:9px;top:5px;width:5px;height:10px;border:solid white;border-width:0 3px 3px 0;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.main__form-header{font-size:24px;font-family:Exo-Bold,serif;text-transform:uppercase}.main__form-info{font-size:14px}.main__form-terms{font-size:13px;color:#999}@font-face{font-family:&quot;Exo&quot;;src:url(../fonts/exo/Exo2.0-Regular.otf)}@font-face{font-family:&quot;Exo-Bold&quot;;src:url(../fonts/exo/Exo2.0-Bold.otf)}@font-face{font-family:&quot;Exo-SemiBold&quot;;src:url(../fonts/exo/Exo2.0-SemiBold.otf)}textarea,input,button{outline:0}.container{max-width:980px;padding-left:15px;padding-right:15px;margin-left:auto;margin-right:auto}body{font-family:Exo,serif;background-image:url(&quot;../img/bg.png&quot;);background-size:100% 100%;background-repeat:no-repeat}.btn{background-color:#dd2c14;display:inline-block;padding:0 56px;font-size:16px;font-weight:400;line-height:40px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;color:#fff;border:0;letter-spacing:1px;text-transform:uppercase;border-radius:0}.btn:hover{background-color:#96365e}.block-header{margin:0 auto;text-align:center;margin-bottom:30px;font-size:38px}@media screen and (max-width:480px){.block-header{font-size:28px}}</find>
+      <find>color: red</find>
+      <find>red</find>
+      <find>form-header</find>
+      <find>-header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,8 +72,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/styles/blocks/_header.scss" />
         <option value="$PROJECT_DIR$/src/styles/main.scss" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" />
       </list>
     </option>
   </component>
@@ -106,6 +116,12 @@
               <item name="sheer82" type="b2602c69:ProjectViewProjectNode" />
               <item name="sheer82" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sheer82" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sheer82" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sheer82" type="b2602c69:ProjectViewProjectNode" />
@@ -178,6 +194,7 @@
       <updated>1553769340834</updated>
       <workItem from="1553769345406" duration="19366000" />
       <workItem from="1553856652044" duration="5117000" />
+      <workItem from="1553942487007" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="main section started">
       <created>1553811457372</created>
@@ -190,7 +207,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27349000" />
+    <option name="totallyTimeSpent" value="44905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -205,25 +222,25 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5940594" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.68151814" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15848215" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15848215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Gulp" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.68151814" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -232,15 +249,15 @@
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15848215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.68151814" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -258,23 +275,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main section started" />
-    <option name="LAST_COMMIT_MESSAGE" value="main section started" />
+    <MESSAGE value="form started" />
+    <option name="LAST_COMMIT_MESSAGE" value="form started" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/_blocks.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1480">
@@ -591,24 +595,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/owl.carousel/docs_src/data/events.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="159" column="33" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="960">
           <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/_blocks.scss">
+    <entry file="file://$PROJECT_DIR$/build/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="128" column="39" lean-forward="true" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
+        <state relative-caret-position="133">
+          <caret column="955" selection-end-column="4538" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="66" column="88" lean-forward="true" selection-start-line="66" selection-start-column="88" selection-end-line="66" selection-end-column="91" />
+        <state relative-caret-position="358">
+          <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/_blocks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
         </state>
       </provider>
     </entry>
