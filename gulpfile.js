@@ -26,7 +26,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('vendor-styles', function () {
-    return gulp.src(['node_modules/bootstrap/dist/css/bootstrap.css', 'node_modules/owl.carousel/dist/assets/owl.carousel.css'])
+    return gulp.src([])
         .pipe(concat('vendors.min.css'))
         .pipe(uglifycss())
         .pipe(gulp.dest('build/styles'));
