@@ -1,13 +1,18 @@
 .header {
 	min-height: 54px;
-	display: flex;
-	align-items: center;
 	margin-bottom: 22px;
 	font-family: Exo-SemiBold, serif;
 	background-color: rgba(0, 23, 38, 0.2);
 
+    &__nav {
+        min-height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 	a {
-		margin-right: 80px;
+		//margin-right: 80px;
 		font-size: 16px;
 		color: #000;
 
@@ -30,6 +35,10 @@
 		color: #000;
 		font-size: 17px;
 		font-family: Exo-Bold, serif;
+
+        > div {
+            padding-top: 12px;
+        }
 	}
 
 	&__logo {
@@ -56,10 +65,13 @@
 		position: relative;
 		background-color: #dd2c14;
 		color: #ffffff;
-		max-width: 620px;
+		max-width: 624px;
 		text-transform: uppercase;
+        font-family: Exo-Bold, serif;
 		font-size: 36px;
         margin-bottom: 55px;
+        padding: 29px 43px 31px 43px;
+        line-height: 42px;
 
 		&::after {
 			content: '';
@@ -81,17 +93,19 @@
 		display: flex;
 		justify-content: space-between;
 		position: relative;
+        margin-bottom: 45px; // 45
 	}
 
 	&__img {
 		width: 690px;
 		height: 595px;
 		background-image: url("../../img/man.svg");
-		background-size: 70%;
+		background-size: 100%;
 		background-repeat: no-repeat;
+        background-position-y: 1px;
 		position: absolute;
-		top: 0;
-		left: 18%;
+		top: -161px;
+		left: 17%;
 		z-index: 2;
 	}
 
@@ -142,8 +156,8 @@
 		flex-direction: column;
 		justify-content: center;
 		background-color: rgba(238, 242, 245, 0.902);
-		padding: 28px 20px;
-		width: 343px;  //363px;
+		padding: 22px 38px;
+		width: 364px;  //364px;
 		//height: 390px;
 		text-align: center;
 
@@ -200,7 +214,7 @@
 	}
 
 	&__form-header  {
-		margin: 0 0 28px 0;
+		margin: 0 0 19px 0;
 
 		div {
 			line-height: 27px; // 12px between divs
@@ -217,13 +231,14 @@
 	}
 
 	&__form-terms {
-		//font-family: ProximaNova;
+		font-family: ProximaNova-regular, serif;
 		font-size: 13px;
 		color: #999999;
+        min-width: 270px;
 	}
 
 	&__form-btn {
-		margin-bottom: 24px;
+		margin-bottom: 18px;
 	}
 }
 
