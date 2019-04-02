@@ -3,26 +3,39 @@
 
 @font-face {
     font-family: "Exo";
-    src: url(../fonts/exo/Exo2.0-Regular.otf);
-    src: url(../fonts/exo/Exo2.0-Regular.eot);
+    src: url("../fonts/exo/Exo2.0-Regular.eot");
+    src: local("../fonts/exo/Exo2.0-Regular.eot"),
+    url('../fonts/exo/Exo2.0-Regular.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/exo/Exo2.0-Regular.otf") format('otf'),
+    url("../fonts/exo/Exo2.0-Regular.ttf") format('truetype');
+
 }
 
 @font-face {
     font-family: "Exo-Bold";
-    src: url(../fonts/exo/Exo2.0-Bold.otf);
-    src: url(../fonts/exo/Exo2.0-Bold.eot);
+    src: url("../fonts/exo/Exo2.0-Bold.eot");
+    src: local("../fonts/exo/Exo2.0-Bold.eot"),
+    url('../fonts/exo/Exo2.0-Bold.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/exo/Exo2.0-Bold.otf") format('otf'),
+    url("../fonts/exo/Exo2.0-Bold.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "Exo-SemiBold";
-    src: url(../fonts/exo/Exo2.0-SemiBold.otf);
-    src: url(../fonts/exo/Exo2.0-SemiBold.eot);
+    src: url("../fonts/exo/Exo2.0-SemiBold.eot");
+    src: local('../fonts/exo/Exo2.0-SemiBold.eot'),
+    url('../fonts/exo/Exo2.0-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/exo/Exo2.0-SemiBold.otf") format('otf'),
+    url("../fonts/exo/Exo2.0-SemiBold.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "ProximaNova-regular";
-    src: url(../fonts/ProximaNova/ProximaNova-Regular.otf);
-    src: url(../fonts/ProximaNova/ProximaNova-Regular.eot);
+    src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+    src: local('../fonts/ProximaNova/ProximaNova-Regular.eot'),
+    url('../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url("../fonts/ProximaNova/ProximaNova-Regular.otf") format('otf'),
+    url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format('truetype');
 }
 
 textarea, input, button { outline: none; }
