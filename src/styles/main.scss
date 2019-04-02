@@ -43,6 +43,9 @@ body {
     background-image: url("../img/bg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    font-size: calc(13px + 0.4vw);; //16px;
 }
 
 .btn {
@@ -91,12 +94,34 @@ form {
 }
 @media (min-width: 992px) {
     .container {
-        max-width: 960px;
+        max-width: 980px;
     }
 }
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-image: url("../img/bg-desktop.png");
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("../img/bg-tablet.png");
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    body {
+        background-image: url("../img/bg-mob.png");
     }
 }
 
