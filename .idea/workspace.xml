@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ea871e0e-6724-478b-ab6b-7535ffb1a2de" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/man.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/man.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,20 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_blocks.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_blocks.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/blocks/_blocks.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="286" column="10" selection-start-line="286" selection-start-column="10" selection-end-line="286" selection-end-column="10" />
+            <state relative-caret-position="348">
+              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-826">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/blocks/_modal.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="120" column="25" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+            <state relative-caret-position="500">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -40,8 +59,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+            <state relative-caret-position="317">
+              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -50,10 +69,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>build-images</find>
       <find>build-fon</find>
-      <find>.header{min-height:54px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:22px;font-family:Exo-SemiBold,serif;background-color:rgba(0,23,38,0.2)}.header a{margin-right:80px;font-size:16px;color:#000}.header a:last-of-type{margin-right:0}.contacts{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:60px}.contacts__logo-block{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#000;font-size:17px;font-family:Exo-Bold,serif}.contacts__logo{width:68px;height:68px;margin-right:15px}.contacts__phone{font-size:20px;color:#000;font-family:Exo-Bold,serif}.contacts__order{font-size:14px;color:#dd2c14}.main__description{position:relative;background-color:#dd2c14;color:#fff;max-width:620px;text-transform:uppercase;font-size:36px;margin-bottom:55px}.main__description::after{content:'';display:block;position:absolute;right:16%;top:100%;width:0;height:0;border-top:30px solid #dd2c14;border-right:30px solid #dd2c14;border-bottom:30px solid transparent;border-left:30px solid transparent}.main__advantages{color:#fefefe;margin-top:72px}.main__advantages-tile{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:rgba(0,23,38,0.902);margin-bottom:24px;max-width:696px;height:72px;padding-left:68px;background-image:url(&quot;../../img/calendar.svg&quot;);background-repeat:no-repeat;background-position:18px 50%}.main__advantages-tile--profit{background-image:url(&quot;../../img/handshake.svg&quot;)}.main__advantages-tile--reliable{background-image:url(&quot;../../img/ribbon.svg&quot;)}.main__advantages-top{font-size:24px;font-family:Exo-Bold,serif}.main__advantages-bottom{font-size:14px}.main__form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around;background-color:rgba(238,242,245,0.902);padding:0 20px;width:343px;height:390px;text-align:center}.main__form input:not([type=&quot;checkbox&quot;]){height:44px;background-position:95% 0;background-repeat:no-repeat;padding-right:45px;padding-left:6px;border:0}.main__form input[type=&quot;text&quot;]{background-image:url(&quot;../../img/person.svg&quot;)}.main__form input[type=&quot;phone&quot;]{background-image:url(&quot;../../img/phone.svg&quot;)}.main__form-checkbox-container{position:relative}.main__form-checkbox-container input[type=&quot;checkbox&quot;]{position:absolute;opacity:0;cursor:pointer;height:0;width:0}.main__form-checkbox-container label{position:absolute;top:0;left:0;height:25px;width:25px;background-color:mediumpurple}input[type=&quot;checkbox&quot;]:checked .main__form-checkbox-container{color:red}input[type=&quot;checkbox&quot;]:checked .main__form-checkbox-container label::after{content:&quot;&quot;;position:absolute;display:block;left:9px;top:5px;width:5px;height:10px;border:solid white;border-width:0 3px 3px 0;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.main__form-header{font-size:24px;font-family:Exo-Bold,serif;text-transform:uppercase}.main__form-info{font-size:14px}.main__form-terms{font-size:13px;color:#999}@font-face{font-family:&quot;Exo&quot;;src:url(../fonts/exo/Exo2.0-Regular.otf)}@font-face{font-family:&quot;Exo-Bold&quot;;src:url(../fonts/exo/Exo2.0-Bold.otf)}@font-face{font-family:&quot;Exo-SemiBold&quot;;src:url(../fonts/exo/Exo2.0-SemiBold.otf)}textarea,input,button{outline:0}.container{max-width:980px;padding-left:15px;padding-right:15px;margin-left:auto;margin-right:auto}body{font-family:Exo,serif;background-image:url(&quot;../img/bg.png&quot;);background-size:100% 100%;background-repeat:no-repeat}.btn{background-color:#dd2c14;display:inline-block;padding:0 56px;font-size:16px;font-weight:400;line-height:40px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;color:#fff;border:0;letter-spacing:1px;text-transform:uppercase;border-radius:0}.btn:hover{background-color:#96365e}.block-header{margin:0 auto;text-align:center;margin-bottom:30px;font-size:38px}@media screen and (max-width:480px){.block-header{font-size:28px}}</find>
-      <find>color: red</find>
+      <find />
       <find>red</find>
       <find>form-header</find>
       <find>-header</find>
@@ -74,13 +91,16 @@
       <find>des</find>
       <find>__img</find>
       <find>form</find>
-      <find>hid</find>
       <find>__des</find>
       <find>__for</find>
-      <find>__form</find>
+      <find>__form-term</find>
+      <find>type=&quot;phone&quot;</find>
+      <find>hid</find>
+      <find>__desc</find>
     </findStrings>
     <replaceStrings>
       <replace>modal__close</replace>
+      <replace>type=&quot;tel&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -93,12 +113,12 @@
         <option value="$PROJECT_DIR$/src/styles/blocks/_header.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/styles/blocks/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/styles/blocks/_modal.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/styles/main.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/styles/blocks/_blocks.scss" />
+        <option value="$PROJECT_DIR$/src/styles/blocks/_modal.scss" />
+        <option value="$PROJECT_DIR$/src/styles/main.scss" />
       </list>
     </option>
   </component>
@@ -236,7 +256,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96505000" />
+    <option name="totallyTimeSpent" value="101994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -280,20 +300,20 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15848215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.68151814" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="4" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -619,20 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/blocks/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/blocks/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -642,22 +648,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+        <state relative-caret-position="317">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="120" column="25" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+        <state relative-caret-position="-826">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/blocks/_blocks.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="286" column="10" selection-start-line="286" selection-start-column="10" selection-end-line="286" selection-end-column="10" />
+        <state relative-caret-position="348">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/blocks/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>

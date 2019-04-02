@@ -39,6 +39,16 @@
 			margin-right: 20px;
 		}
 	}
+
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		&__nav {
+			height: 54px;
+		}
+
+		a {
+			display: inline-block;
+		}
+	}
 }
 
 
@@ -225,7 +235,7 @@
 			margin-bottom: 17px;
 		}
 
-		input[type="phone"] {
+		input[type="tel"] {
 			background-image: url("../../img/phone.svg");
 			background-position: 95% 0;
 			margin-bottom: 23px;
@@ -353,6 +363,10 @@
 			margin-bottom: 20px;
 		}
 
+		&__bottom {
+			margin-bottom: 20px;
+		}
+
 		&__form {
 			justify-content: space-around;
 			max-height: 320px;
@@ -363,7 +377,7 @@
 				margin-bottom: 0;
 			}
 
-			input[type="text"], input[type="phone"] {
+			input[type="text"], input[type="tel"] {
 				height: 36px;
 				margin-top: 0;
 				margin-bottom: 0;
@@ -383,7 +397,7 @@
 
 		}
 
-		input[type="text"], input[type="phone"] {
+		input[type="text"], input[type="tel"] {
 			height: 30px;
 			background-position-y: -6px;
 		}
@@ -393,6 +407,9 @@
 			margin-left: auto;
 			margin-bottom: 30px;
 			font-size: 24px;
+			//padding-left: 10px;
+			//padding-right: 10px;
+			padding: 8px 10px 8px 10px;
 		}
 
 		&__advantages {
