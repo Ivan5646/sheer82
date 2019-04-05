@@ -15,7 +15,6 @@
     }
 
 	a {
-		//margin-right: 80px;
 		font-size: 16px;
 		color: #000;
 		text-decoration: none;
@@ -23,10 +22,6 @@
 		
 		&:hover {
 			color: $mainColor;
-		}
-
-		&:last-of-type {
-			margin-right: 0;
 		}
 	}
 
@@ -39,6 +34,16 @@
 			margin-right: 20px;
 		}
 	}
+
+    @media (max-width: 576px) {
+        a {
+            margin-right: 12px!important;
+        }
+
+        a:first-of-type {
+            margin-left: 12px;
+        }
+    }
 
 	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 		&__nav {
@@ -80,7 +85,7 @@
 
 	&__phone-block {
 		text-align: right;
-		line-height: 24px;
+		line-height: 26px;
 	}
 
 	&__phone {
@@ -112,16 +117,14 @@
 			padding: 1px 2px;
 			border: 0;
 			color: #fff;
-			//margin-top: 10px;
 		}
 	}
 
 	@media (max-width: 576px) {
 		justify-content: center;
-		flex-wrap: wrap;
+        flex-direction: column;
 
 		&__logo-block {
-			margin-right: 20px;
 			margin-bottom: 16px;
 		}
 
@@ -151,7 +154,6 @@
 			position: absolute;
 			right: 16%;
 			top: 100%;
-			//margin-top: -30px;
 			width: 0;
 			height: 0;
 			border-top: 30px solid #dd2c14;
@@ -164,7 +166,6 @@
 	&__bottom {
 		display: flex;
 		justify-content: space-between;
-		//position: relative;
         margin-bottom: 45px; // 45
 	}
 
@@ -230,7 +231,6 @@
 		background-color: rgba(238, 242, 245, 0.902);
 		padding: 22px 38px;
 		width: 364px;  //364px;
-		//height: 390px;
 		text-align: center;
 
 		input:not([type="checkbox"]) {
@@ -255,7 +255,6 @@
     }
 
 	&__form-checkbox-container {
-		//position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -307,7 +306,6 @@
 		font-family: ProximaNova-regular, serif;
 		font-size: 13px;
 		color: #999999;
-        //min-width: 270px;
 	}
 
 	&__form-btn {
@@ -319,11 +317,6 @@
 			max-width: 60%;
 			font-size: 1.7em;
 		}
-
-		//&__img {
-		//	width: 70%; //640px;
-		//	left: 28%
-		//}
 
 		&__form {
 			top: 34px;
@@ -349,7 +342,6 @@
 		&__description {
 			max-width: 80%;
 			padding: 11px 0 11px 20px;
-			//font-size: 30px;
 
 			&:after {
 				display: none;
@@ -360,18 +352,11 @@
 			display: none;
 			width: 72%;
 			left: 28%
-
-			// show on top
-			//width: 40%;
-			//background-position-y: 0;
-			//bottom: 120px;
-			//left: 34%;
 		}
 	}
 
 	@media (max-width: 768px) {
 		&__description {
-			//font-size: 26px;
 			margin-bottom: 20px;
 		}
 
@@ -419,8 +404,6 @@
 			margin-left: auto;
 			margin-bottom: 30px;
 			font-size: 24px;
-			//padding-left: 10px;
-			//padding-right: 10px;
 			padding: 8px 10px 8px 10px;
 		}
 

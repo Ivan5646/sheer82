@@ -49,9 +49,7 @@ textarea, input, button { outline: none; }
 }
 
 body {
-    //width: 100vw;
-    //height: 100vh;
-    font-family: Exo, serif;    //Georgia_Regular;
+    font-family: Exo, serif;
     background-image: url("../img/bg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -76,7 +74,7 @@ body {
     user-select: none;
     background-image: none;
     color: #fff;
-    border: 0; //1px solid transparent;
+    border: 0;
     text-transform: uppercase;
     border-radius: 0;
 
@@ -129,23 +127,10 @@ form {
 
 @media (max-width: 576px) {
     .container {
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     body {
         background-image: url("../img/bg-mob.png");
     }
-}
-
-
-
-@media screen and (max-width: 980px) { 
-    // .container {
-    //     padding-left: 10px;
-    //     padding-right: 10px;
-    // }
-}
-
-@media screen and (max-width: 480px) { 
-
 }
